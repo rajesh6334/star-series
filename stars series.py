@@ -1,0 +1,8 @@
+#stars series
+n=int(input())
+k=n
+for i in range(0,n):
+    for j in range(0,k):
+       print('*',end=' ')
+    k=k-1   
+    print()      
